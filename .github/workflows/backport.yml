@@ -1,7 +1,8 @@
 name: Backport merged pull request
-on:
-  pull_request_target:
-    types: [labeled]
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request_target:
+#     types: [labeled]
 permissions:
   contents: write      # so it can comment
   pull-requests: write # so it can create pull requests

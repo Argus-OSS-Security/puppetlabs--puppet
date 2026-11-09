@@ -1,9 +1,10 @@
 ---
 name: Mend Monitor
-on:
-  push:
-    branches:
-      - main
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - main
 jobs:
   mend_monitor:
     if: ${{ github.repository_owner == 'puppetlabs' }}

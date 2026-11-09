@@ -1,10 +1,11 @@
 ---
 name: Export issue to Jira
 
-on:
-  issues:
-    types: [labeled]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issues:
+#     types: [labeled]
+# 
 permissions:
   issues: write
 
